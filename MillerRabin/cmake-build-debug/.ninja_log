@@ -1,0 +1,6 @@
+# ninja log v6
+32	1271	7508938409589348	CMakeFiles/MillerRabin.dir/main.cpp.obj	41d030082acc6f1b
+49	876	7508771404601185	CMakeFiles/MillerRabin.dir/soe.cpp.obj	a98ad1aa393321c8
+1272	1549	7508938421984368	MillerRabin.exe	8bf86c9ad7c33c80
+2	358	7509490678837556	build.ninja	d5b4f6baf6a004e8
+6	829	7508778284048860	CMakeFiles/MillerRabin.dir/functions.cpp.obj	efbf06eb716ab2c5
