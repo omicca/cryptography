@@ -2,11 +2,6 @@
 #include <cmath>
 #include <iostream>
 
-struct PrimeInfo
-{
-    int number;
-    bool is_prime;
-};
 
 long long powmod(long long base, long long exponent, long long modulus) {
     if (modulus == 1) return 0;
@@ -85,7 +80,7 @@ std::vector<int> soe(int n)
     std::vector<int> prime_list;
     for (int i = 0; i <= n; ++i)
     {
-        if (primes[i] && i > 100000000) //Course specific test of i > 100000000
+        if (primes[i]) //Course specific test of i > 100000000
         {
             prime_list.push_back(i);
         }
